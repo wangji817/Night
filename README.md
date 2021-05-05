@@ -73,7 +73,7 @@ HOC高阶组件的基本原理可以写成这样：
 
     - 可以发现HOC产生了许多无用的组件，加深了组件层级。
 
-    - 所以即使React HOC（高阶组件）比古老的React mixins在解决代码复用问题上进步了不少，但是依然不能令人满意。进一步的方案，参考下篇文章：React render props。    
+- 所以即使React HOC（高阶组件）比古老的React mixins在解决代码复用问题上进步了不少，但是依然不能令人满意。进一步的方案，参考下篇文章：React render props。    
 
 ### 7.React Hooks
 ### 8.怎么创建一个object，并判断是否是一个object
@@ -89,3 +89,6 @@ HOC高阶组件的基本原理可以写成这样：
 ### 11.函数防抖和节流
 - 所谓防抖，就是指触发事件后在 n 秒内函数只能执行一次，如果在 n 秒内又触发了事件，则会重新计算函数执行时间
 - 所谓节流，就是指连续触发事件但是在 n 秒中只执行一次函数
+### 12.js的数据类型有哪些
+- 有5种数据类型：Undefined、Null、Boolean、Number和String，其中undefined和null只有自身值，boolean只有true和false，而string则字符串，number是数值，非数值类型判断可用isNaN判断
+- 复杂的数据类型：Object，Object本质是一组无序的名值对组成的。
