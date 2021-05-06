@@ -1,5 +1,7 @@
 # 前端开发必备的知识
 
+## javaScript篇
+
 ### 1.Promise的原理，在new时是异步的还是同步的
 - promise有三种状态，分别是pedding 、Fulfilled、 Rejected。
 > Pending Promise对象实例创建时候的初始状态
@@ -92,3 +94,18 @@ HOC高阶组件的基本原理可以写成这样：
 ### 12.js的数据类型有哪些
 - 有5种数据类型：Undefined、Null、Boolean、Number和String，其中undefined和null只有自身值，boolean只有true和false，而string则字符串，number是数值，非数值类型判断可用isNaN判断
 - 复杂的数据类型：Object，Object本质是一组无序的名值对组成的。
+### 13.Spread / Rest 操作符
+- 
+### 14.可选链接运算符【?.】
+    if (data && data.children && data.children[0] && data.children[0].title) {
+        // I have a title!
+    }
+    
+- 使用可选链接运算符后
+
+    let title = data?.children?.[0]?.title;
+
+
+## CSS篇
+
+### 1.盒模型
