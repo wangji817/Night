@@ -104,7 +104,15 @@ HOC高阶组件的基本原理可以写成这样：
 - 使用可选链接运算符后
 
     let title = data?.children?.[0]?.title;
-
+### 15.以ES6 Array.filter方法重写一个
+    Array.prototype.filterFn = function (func) {
+        var rst = [];
+        var arr = this;        
+        for (var i = 0; i < arr.length; i++)
+            if (func.call(this, arr[i], i, arr))
+                rst.push(arr[i]);
+        return rst;
+    }
 
 ## CSS篇
 
