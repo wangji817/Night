@@ -96,7 +96,7 @@ HOC高阶组件的基本原理可以写成这样：
 - 复杂的数据类型：Object，Object本质是一组无序的名值对组成的。
 ### 13.Spread / Rest 操作符
 - 
-### 14.可选链接运算符【?.】
+### 14.可选链接运算符【?.】-ES2020支持
     if (data && data.children && data.children[0] && data.children[0].title) {
         // I have a title!
     }
